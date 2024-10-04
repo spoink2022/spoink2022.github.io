@@ -1,1 +1,21 @@
+# Site settings
+title: "Your Name's Engineering Portfolio"
+description: "An engineering portfolio showcasing my projects, skills, and experiences."
+baseurl: "" # leave empty for main site (your-username.github.io)
+url: "https://your-username.github.io"
+
+# Author info
+author:
+  name: "Your Name"
+  email: "your-email@example.com"
+
+# Jekyll theme settings
 theme: minima
+
+# Build settings
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - node_modules
+  - vendor
